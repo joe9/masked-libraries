@@ -1,0 +1,14 @@
+Name:          Masked
+Version:       1.0.0
+Author:        Joe9
+Homepage:      http://none.sourceforge.net/
+Category:      Data
+Synopsis:      Mask the Standard libraries as recommended by http://www.stephendiehl.com/what/#prelude
+Tested-With:   GHC==7.8.3
+Build-Type:    Simple
+Cabal-Version: >= 1.6
+
+Library
+   Build-Depends: base
+   Exposed-modules:
+    Masked.Prelude, Masked.Data.List, Masked.Control.Monad
