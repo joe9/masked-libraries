@@ -10,4 +10,4 @@ import           Data.List as Exports hiding (all, and, any, concat,
                                        foldr1, mapAccumL, mapAccumR,
                                        maximum, maximumBy, minimum,
                                        minimumBy, notElem, or,
-                                       product, sum)
+                                       product, sum, (!!))

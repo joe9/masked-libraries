@@ -6,4 +6,5 @@ module Masked.Prelude
 -- from http://www.stephendiehl.com/what/#prelude
 import           Prelude as Exports hiding (all, and, any, concat,
                                      concatMap, head, map, mapM,
-                                     mapM_, read, sequence, sequence_)
+                                     mapM_, read, sequence, sequence_,
+                                     (!!))
